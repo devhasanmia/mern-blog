@@ -9,7 +9,7 @@ const Header = () => {
         <Link to="" className="nav__logo">
           <img src={Logo} alt="Navbar Logo" />
         </Link>
-        <ul>
+        <ul className="nav__menu">
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/create">Create Post</Link></li>
           <li><Link to="/authors">Authors</Link></li>
